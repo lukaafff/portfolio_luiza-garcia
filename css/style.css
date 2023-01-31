@@ -38,7 +38,9 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+
 }
+
 
 header ul {
     display: flex;
@@ -87,6 +89,7 @@ header ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .parallax::before {
@@ -352,7 +355,7 @@ header ul li a:hover {
     }
     .navbar {
         position: absolute;
-        top: 20%;
+        top: 15%;
         right: -100%;
         width: 270px;
         height: 40vh;
@@ -364,7 +367,14 @@ header ul li a:hover {
         border-radius: 10px;
         transition: all .2s;
     }
-
+    header {
+        overflow-x: hidden;
+        height: 50vh;
+    }
+    header a img {
+        position: relative;
+        bottom: 120px;
+    }
     .navbar a {
         display: block;
         margin: 12px 0;
