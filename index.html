@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- icones -->
+    <link rel="website icon" type="png" href="./assets/img/logo/icon_luiza.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Luiza Garcia</title>
+</head>
+<body>
+
+    <!--Navbar-->
+    <header>
+        <a href="#"><img src="./assets/img/logo/Logo github.png" width="100px"></a>
+        <ul class="navbar">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Sobre Mim</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </div>
+    <!--Navbar-->
+
+    <!--Efeito parallax-->
+    <section class="parallax">
+        <img src="./assets/img/parallax/stars.png" id="stars">
+        <img src="./assets/img/parallax/moon.png" id="moon">
+        <img src="./assets/img/parallax/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Luiza Garcia</h2>
+        <img src="./assets/img/parallax/mountains_front.png" id="mountains_front">
+    </section>
+    <!--Efeito parallax-->
+
+       <!--Apresentação-->
+       <div id="sobre-mim">
+        <div class="content" >
+            <span class="foto" data-aos="fade-up">
+                <img src="./assets/img/luizal.jpg">
+            </span>
+           </div>
+           <div class="container" data-aos="fade-up">
+               <ul class="dinamico">
+                   <li><span>Oii, eu sou a Luiza</span></li>
+               </ul>
+           </div>
+        </div>
+        <div class="apresentacao">
+        <span class="ctn">
+            <p class="txt" data-aos="fade-right">
+                Tenho 19 anos e curso Ciência da Computação. Desde cedo, sempre fui apaixonada por tecnologia e tudo o que ela pode fazer pelas pessoas. Isso me levou a escolher a carreira de programação, onde posso colocar minha paixão em prática.
+                <br>
+                Meu interesse pela programação começou quando eu tinha 16 anos e trabalhava como autônoma com design gráfico, quando eu parei e me perguntei: "Como funciona para colocar isso em um site?", após pesquisas achei a coisa mais legal do mundo e desde então decidi estudar sobre essa área. Cheguei a criar pequenos sites responsivos.
+                <br>
+                Em 2022 consegui entrar para a faculdade e isso me deu um gás para estudar mais e mais programação. No primeiro semestre tivemos um projeto para programar um <a class="carrinho" target="_blank" href="https://github.com/lukaafff/carrinho-seguidor-de-linha"> carrinho seguidor de linha</a> onde iria ter um torneio entre todos os grupos formados. Minha equipe acabou ficando em primeiro lugar na competição e isso foi uma grande vitória para todos nós, pois era o primeiro contato com algo do tipo.
+                <br>
+                No meu tempo livre, gosto de experimentar coisas novas e explorar minha criatividade. Isso inclui desde aprender novas linguagens de programação até criar projetos pessoais. Acredito que a combinação de minha paixão pela tecnologia e minha busca constante por novos desafios e conhecimentos é o que me mantém motivado e sempre pronto para o próximo projeto.
+                <br>
+                Meu objetivo é continuar me desenvolvendo e crescendo na área de programação e trabalhando em projetos desafiadores.
+
+            </p>
+        </span>
+       </div>
+        <!--Apresentação-->
+
+    <!--Projetos-->
+    <section id="projetos">
+        <h1 data-aos="fade-up">Meus Projetos</h1>
+        <div class="projetos" data-aos="fade-up">
+
+            <!-- CARD 1 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/Calculadora.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Calculadora</h2>
+                    <p class="card-texto"> 
+                        Esse é um simples projeto de uma calculadora feita com elementos do JavaScript.
+                    </p>
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/calculadora" target="_blank"><i class='bx bxl-github'></i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 1 -->
+
+            <!-- CARD 2 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/jogo da cobrinha.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Jogo da cobrinha</h2>
+                    <p class="card-texto"> 
+                        Um dos meus primeiros projetos foi a recriação do famoso jogo da cobrinha, também conhecido como Snake. Esse jogo conta
+                        com um sistema de pontuação, colisão e conta com um design da página atrativo.
+                        Nele utilizei a linguagem de programação JavaScript.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/jogo-da-cobrinha-JS-2.0" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+
+             <!-- CARD 3 -->
+             <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/Login netflix.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Clone tela login Netflix</h2>
+                    <p class="card-texto"> 
+                        Esse é o clone da parte visual da tela de login da Netflix, criado para colocar em prática meu conhecimento de HTML e CSS.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/clone-login-netflix" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+
+             <!-- CARD 4 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/google.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Clone do Google</h2>
+                    <p class="card-texto"> 
+                        Esse é o clone da parte visual do Google, criado para colocar em prática meu conhecimento de HTML e CSS.
+                    </p>
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/clone-google" target="_blank"><i class='bx bxl-github'></i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 4 -->
+
+            <!-- CARD 5 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/flappy bird.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Jogo Flappy Bird</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto do curso de JavaScript. Esse jogo foi criado juntamente com o professor, passando desafios a serem cumpridos para finalizar o jogo.
+                    </p>
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/flappy-bird" target="_blank"><i class='bx bxl-github'></i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 5 -->
+
+            <!-- CARD 6 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/dark mode.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Dark Mode</h2>
+                    <p class="card-texto"> 
+                        Esse é um pequeno projeto de um simples dark mode (tema escuro) usando o JavaScript.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/dark-mode" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            
+            <!-- CARD 6 -->
+
+            <!-- CARD 7 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/lampada.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Lâmpada</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto simples feito com JavaScript capaz de acender e apagar a lâmpada.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/lampada" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 7 -->
+           
+            <!-- CARD 8 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/imc.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Calculadora IMC</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto simples feito com JavaScript para calcular o IMC de uma pessoa.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/calculadora-IMC" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 8 -->
+
+            <!-- CARD 9 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/media.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Calculadora de Médias</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto simples feito com JavaScript para calcular o a média entre duas notas e mostrar se o aluno foi aprovado ou reprovado.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/calculadora-medias" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 9 -->
+
+            <!-- CARD 10 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/gerador emoji.png" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Gerador de Emojis Aleatório</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto simples feito com JavaScript para gerar emojis aleatórios.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/gerador-emoji-aleatorio" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 10 -->
+
+            <!-- CARD 11 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/dado virtual.png" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Dado virtual</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto simples feito com JavaScript para sortear um número de 1 a 6.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/dado-virtual" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 11 -->
+
+            <!-- CARD 12 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/card apresentacao.png" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Cartão de apresentação</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto de um cartão simples de apresentação.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/card-laura-garcia" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 12 -->
+
+            <!-- CARD 13 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/card pokemon.png" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Card pokemon</h2>
+                    <p class="card-texto"> 
+                        Esse é um projeto usando a API do PokeApi, nele mostra nome, id e imagem do pokemon.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/card-pokemon" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 13 -->
+
+            <!-- CARD 14 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/carrinho seguidor de linha.png" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Carrinho seguidor de linha</h2>
+                    <p class="card-texto"> 
+                        Esse foi um trabalho da faculdade de ciência da computação, no primeiro semestre.
+                        O objetivo principal deste trabalho consiste no desenvolvimento de um veículo autônomo guiado capaz de percorrer um caminho através de uma faixa branca sobre um plano preto.
+                    <div class="card-footer">
+                        <a href="https://github.com/lukaafff/carrinho-seguidor-de-linha" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 14 -->
+
+            <!-- CARD 15 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/ni.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Nome não encontrado</h2>
+                    <p class="card-texto"> 
+                        Descrição não encontrada.
+                    <div class="card-footer">
+                        <a href="#" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 15 -->
+
+            <!-- CARD 16 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/ni.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Nome não encontrado</h2>
+                    <p class="card-texto"> 
+                        Descrição não encontrada.
+                    <div class="card-footer">
+                        <a href="#" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 16 -->
+
+            <!-- CARD 17 -->
+            <div class="card-projetos">
+                <div class="card-header">
+                    <img src="./assets/img/projetos/ni.jpg" class="card-img">
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-nome">Nome não encontrado</h2>
+                    <p class="card-texto"> 
+                        Descrição não encontrada.
+                    <div class="card-footer">
+                        <a href="#" target="_blank"><i class='bx bxl-github'> </i> Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <span>&#8673;</span>
+                </div>
+            </div>
+            <!-- CARD 17 -->
+
+        </div>
+    </section>
+    <!--Projetos-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
