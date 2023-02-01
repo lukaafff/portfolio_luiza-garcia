@@ -408,4 +408,9 @@ header ul li a:hover {
         height: 8vw;
     }
 }
+@media (max-width: 428px) {
+    #projetos h1 {
+        font-size: 2rem;
+    }
+}
 /* MEDIAS */
